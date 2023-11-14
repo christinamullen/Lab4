@@ -2,6 +2,7 @@
 :root {
     --c-text: #f5f0f0;
     --c-nav: #F801F9;
+    --c-black:#141010;
     --ff-Header: 'Exo 2', sans-serif;
 }
 * {
@@ -10,7 +11,8 @@
 
 
 body {
-    background-image: url("imgs/galaxy.png");
+    background-image: url("../imgs/galaxy.png");
+    background-color: var(--c-black);
     background-attachment: fixed;
     margin: 0;
     font-family: var(--ff-Header);
