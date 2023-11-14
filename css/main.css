@@ -84,11 +84,11 @@ section {
     shape-outside: url("/imgs/pizzaSliceL.png");
 }
 
-.stars {
+.astronaut {
     float: left;
-    height: 250px;
-    width: 250px;
-    
+    height: 200px;
+    width: 200px;
+    clip-path: polygon(32% 0, 0% 0%, 0% 100%, 100% 100%, 100% 61%, 87% 48%, 79% 39%, 76% 27%, 75% 10%, 67% 0);
     shape-outside: url("/imgs/astronaut.png");
 }
 
@@ -100,14 +100,18 @@ section {
     width: 200px;
 
 }
-.pizzaCutter {
-    float: left;
-    height: 150px;
-    width: 150px;
-    
+.mushroom {
+    float: right;
+    clip-path: circle();
+    shape-outside: circle(45%);
+    height: 200px;
+    width: 200px;
+
 }
 .pizza5 {
-    float: right;
+    float: left;
+    clip-path: circle();
+    shape-outside: circle(55%);
     height: 200px;
     width: 200px;
 }
