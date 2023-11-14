@@ -21,6 +21,7 @@ body {
     margin-right: auto;
     max-width: 50%;
     -webkit-mask-image: linear-gradient(to top, transparent 25%, black);
+    filter: brightness(1.0) contrast(1.2) saturate(2) hue-rotate(-20deg);
 }
 
 
@@ -86,9 +87,9 @@ section {
 
 .astronaut {
     float: left;
-    height: 200px;
-    width: 200px;
-    clip-path: polygon(32% 0, 0% 0%, 0% 100%, 100% 100%, 100% 61%, 87% 48%, 79% 39%, 76% 27%, 75% 10%, 67% 0);
+    height: 260px;
+    width: 260px;
+    clip-path: polygon(0% 0%, 1% 99%, 100% 98%, 100% 58%, 72% 38%, 64% 12%, 64% 0%);
     shape-outside: url("/imgs/astronaut.png");
 }
 
@@ -100,23 +101,25 @@ section {
     width: 200px;
 
 }
-.mushroom {
+.blend1 img:first-child {
+    position: absolute;
+    mix-blend-mode: soft-light;
+}
+  
+.blend1 {
     float: right;
-    clip-path: circle();
-    shape-outside: circle(45%);
     height: 200px;
     width: 200px;
-
+    shape-outside: ellipse();
 }
+
 .pizza5 {
     float: left;
-    clip-path: circle();
+    clip-path: ellipse(50% 50% at 50% 50%);
     shape-outside: circle(55%);
     height: 200px;
     width: 200px;
 }
-
-
 
 footer {
     display: flex;
