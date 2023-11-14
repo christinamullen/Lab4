@@ -10,7 +10,7 @@
 
 
 body {
-    background-image: url("imgs/galaxy.png");
+    background-image: url("/imgs/galaxy.png");
     background-attachment: fixed;
     margin: 0;
     font-family: var(--ff-Header);
