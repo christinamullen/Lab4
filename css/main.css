@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,400;1,700&display=swap');
 :root {
     --c-text: #f5f0f0;
+    --c-nav: #F801F9;
     --ff-Header: 'Exo 2', sans-serif;
 }
 * {
@@ -10,6 +11,7 @@
 
 body {
     background-image: url("/imgs/galaxy.png");
+    background-attachment: fixed;
     margin: 0;
     font-family: var(--ff-Header);
 }
@@ -18,6 +20,7 @@ body {
     margin-left: auto;
     margin-right: auto;
     max-width: 50%;
+    
 
 }
 .neonGrid {
@@ -45,19 +48,37 @@ h1 {
 h2 {
     font-size: 4rem;
     font-weight: 50;
-    margin-top: -12rem;
+    margin-top: -2rem;
 }
 
 header {
+    margin-top: 2rem;
     margin-bottom: 2rem;
 }
-main {
-    margin-top: 12rem;
+
+ul {
+    background-color: var(--c-nav);
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    padding: 1rem 0rem 1rem 2rem;
+    font-weight: 600;
+    
+}
+ul li {
+    cursor: pointer;
+}
+section {
+    display:block;
+    justify-content: center;
+    margin-top: 1rem;
     padding: 1rem;
     color: var(--c-text);
     text-align: left;
     font-size: 1.2rem;
     max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .pizza2 {
@@ -78,6 +99,7 @@ main {
 
 .pizza3 {
     float: left;
+    
     shape-outside: url("/imgs/pizzaSliceR.png");
     height: 200px;
     width: 200px;
