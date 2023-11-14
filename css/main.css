@@ -127,6 +127,7 @@ footer {
     justify-content: center;
     font-family: var(--ff-Header);
     color: var(--c-text);
-    font-size: clamp(1rem, 3vw, 1.2rem);
-    font-weight: 300;
+    font-size: clamp(.75rem, 3vw, 1rem);
+    font-weight: 200;
+    padding: 5%;
 }
