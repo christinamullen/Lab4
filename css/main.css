@@ -77,36 +77,37 @@ section {
 
 .pizza2 {
     float: left;
-    height: 200px;
-    width: 200px;
+    height: 250px;
+    width: 250px;
     
     clip-path: polygon(100% 65%, 0 0, 0 100%);
     shape-outside: url("/imgs/pizzaSliceL.png");
 }
 
 .stars {
-    float: right;
-    height: 150px;
-    width: 150px;
-    shape-outside: url("/imgs/stars.png");
+    float: left;
+    height: 250px;
+    width: 250px;
+    
+    shape-outside: url("/imgs/astronaut.png");
 }
 
 .pizza3 {
-    float: left;
-    
+    float: right;
+    clip-path: polygon(46% 0, 100% 0, 100% 100%, 0 100%, 0 37%);
     shape-outside: url("/imgs/pizzaSliceR.png");
     height: 200px;
     width: 200px;
 
 }
-.pizza4 {
-    float: right;
+.pizzaCutter {
+    float: left;
     height: 150px;
     width: 150px;
-    shape-outside: url("/imgs/pizzaSliceL.png");
+    
 }
 .pizza5 {
-    float: left;
+    float: right;
     height: 200px;
     width: 200px;
 }
