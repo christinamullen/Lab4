@@ -83,7 +83,7 @@ section {
     height: 250px;
     width: 250px;
     clip-path: polygon(100% 65%, 0 0, 0 100%);
-    shape-outside: url("/imgs/pizzaSliceL.png");
+    shape-outside: url("../imgs/pizzaSliceL.png");
 }
 
 .astronaut {
@@ -92,13 +92,13 @@ section {
     width: 260px;
     
     clip-path: polygon(0% 0%, 1% 99%, 100% 98%, 100% 58%, 72% 38%, 64% 12%, 64% 0%);
-    shape-outside: url("/imgs/astronaut.png");
+    shape-outside: url("../imgs/astronaut.png");
 }
 
 .pizza3 {
     float: right;
     clip-path: polygon(46% 0, 100% 0, 100% 100%, 0 100%, 0 37%);
-    shape-outside: url("/imgs/pizzaSliceR.png");
+    shape-outside: url("../imgs/pizzaSliceR.png");
     height: 200px;
     width: 200px;
 
