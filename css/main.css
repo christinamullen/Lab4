@@ -3,22 +3,35 @@
     --c-text: #f5f0f0;
     --ff-Header: 'Exo 2', sans-serif;
 }
+* {
+    box-sizing: border-box;
+}
+
 
 body {
-    background-image: url("/imgs/galaxy.svg");
+    background-image: url("/imgs/galaxy.png");
+    margin: 0;
+    font-family: var(--ff-Header);
 }
-header img{
+.pizza1 {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    max-width: 50%;
 
+}
+.neonGrid {
+    width: 100vw;
+    max-height: 300px;
+    object-fit:cover;
+     
 }
 
 h1, h2 {
     display: flex;
     text-align: center;
     justify-content: center;
-    font-family: var(--ff-Header);
+    
     /*font-size: 164px;*/
     color: var(--c-text);
     font-weight: 900;
@@ -30,7 +43,66 @@ h1 {
     margin-top: -10rem;
 }
 h2 {
-    font-size: 80px;
+    font-size: 4rem;
     font-weight: 50;
-    margin-top: -1rem;
+    margin-top: -12rem;
+}
+
+header {
+    margin-bottom: 2rem;
+}
+main {
+    margin-top: 12rem;
+    padding: 1rem;
+    color: var(--c-text);
+    text-align: left;
+    font-size: 1.2rem;
+    max-width: 800px;
+}
+
+.pizza2 {
+    float: left;
+    height: 200px;
+    width: 200px;
+    
+    clip-path: polygon(100% 65%, 0 0, 0 100%);
+    shape-outside: url("/imgs/pizzaSliceL.png");
+}
+
+.stars {
+    float: right;
+    height: 150px;
+    width: 150px;
+    shape-outside: url("/imgs/stars.png");
+}
+
+.pizza3 {
+    float: left;
+    shape-outside: url("/imgs/pizzaSliceR.png");
+    height: 200px;
+    width: 200px;
+
+}
+.pizza4 {
+    float: right;
+    height: 150px;
+    width: 150px;
+    shape-outside: url("/imgs/pizzaSliceL.png");
+}
+.pizza5 {
+    float: left;
+    height: 200px;
+    width: 200px;
+}
+
+
+
+footer {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    font-family: var(--ff-Header);
+    color: var(--c-text);
+    font-size: clamp(1rem, 3vw, 1.2rem);
+    font-weight: 300;
 }
