@@ -89,6 +89,7 @@ section {
     float: left;
     height: 260px;
     width: 260px;
+    
     clip-path: polygon(0% 0%, 1% 99%, 100% 98%, 100% 58%, 72% 38%, 64% 12%, 64% 0%);
     shape-outside: url("/imgs/astronaut.png");
 }
